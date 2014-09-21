@@ -1,0 +1,298 @@
+.menu-collapser {
+    position: relative;
+    background-color: #999;
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.collapse-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 40px;
+    background-color: #0E0E0E;
+    background-image: linear-gradient(to bottom, #151515, #040404);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+    padding: 7px 10px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+
+    transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.collapse-button:hover, .collapse-button:focus {
+    background-image: none;
+    background-color: #040404;
+    color: #FFF;
+}
+.collapse-button .icon-bar {
+    background-color: #F5F5F5;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 2px 0;
+}
+
+ul.slimmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+/* aaded */
+	border: 0px;
+	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	width: auto;
+	list-style: none;
+	float: right;
+}
+
+ul.slimmenu ul {
+	background: #727272;
+	height: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.slimmenu li {
+    position: relative;
+    display: inline-block;
+    background-color: #AAA;
+
+/* added */
+	height: auto;
+	float: left;
+}
+ul.slimmenu > li { 
+margin-right: -5px; border-left: 1px solid #999 
+
+/* added */
+	float: left;
+	height: auto;
+	position: relative;
+
+}
+
+ul.slimmenu > li:first-child { border-left: 0 
+/* added */
+	float: left;
+	height: auto;
+	position: relative;
+	}
+
+ul.slimmenu > li:last-child { margin-right: 0 
+/* added */
+	float: left;
+	height: auto;
+	position: relative;	
+}
+
+ul.slimmenu li a {
+    display: block;
+    color: #FFFFFF;
+
+	/* to be changed accordingly for height of menu */
+    padding: 5px 25px 5px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+/* added */
+	line-height: 25px;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #93C734;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-right-width: 0.5px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	border-left-width: 0.5px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+/* end added */
+
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+
+	/*
+    transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out; */
+}
+
+/* added */
+ul.slimmenu li ul a {
+	display: block;
+	height: 20px;
+	font-size: 15px;
+	font-style: normal;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:0px;
+	padding-right: 7px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+}
+
+ul.slimmenu li a:hover 
+ul.slimmenu ul li:hover > a,
+ul.slimmenu li a.activeTab{
+
+/* added */
+    color: #93C734;
+	text-decoration: none;
+	background-color: #727272;
+	background-image: url(../images/Green_tab_menu.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+}
+
+
+/* added */
+ul.menu li ul a:hover,
+ul.menu li ul li:hover > a {
+	/*on hover of the drop down */
+  background: #93C734 url('images/hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #727272;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+ul.slimmenu li .sub-collapser {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu li .sub-collapser:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+ul.slimmenu li .sub-collapser > i {
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+ul.slimmenu li ul {
+    margin: 0;
+    list-style-type: none;
+
+	/* added */
+	background: #727272;
+	display: none;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	width: auto;
+	z-index: 200;
+	min-width: 220px;
+	 overflow: hidden;
+transition: all 0.3s ease;	
+}
+
+ul.slimmenu li ul li {
+
+/* added */
+display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	background-image: url(images/sub_sep.gif);
+	background-repeat: no-repeat;
+	background-position: center ;
+
+}
+ul.slimmenu li > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+    width: 100%;
+}
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+ul.slimmenu.collapsed li {
+    display: block;
+    width: 100%;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+ul.slimmenu.collapsed li a {
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+ul.slimmenu.collapsed li .sub-collapser {
+    height: 40px;
+}
+
+ul.slimmenu.collapsed li > ul {
+    display: none;
+    position: static;
+}
+
+/* added */
+ul.slimmenu p {
+  clear: left;
+}
