@@ -1,0 +1,99 @@
+ul#menu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: auto;
+  list-style: none;   
+}
+ul#menu ul {
+  background: #727272;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#menu li {
+	float: left;
+	padding: 0px;
+	height: auto;
+}
+ul#menu li a {
+		/* background colour of menu */
+  background: #FFFFFF url('images/Green_tab_menu_right.png') center right no-repeat;
+  /*colour of text */
+    color:#93C734;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+ul#menu > ul > li > a {
+  color: #cccccc;
+}
+ul#menu ul ul a {
+  color: #cccccc;
+}
+ul#menu li > a:hover,
+ul#menu ul li:hover > a {
+	/* image and colur of background on move over */
+  background: #727272 url('images/Green_tab_menu.png') top center repeat-x;
+	/* colour of text on mouse over */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+ul#menu li ul {
+	/* colour of the dropdown */
+  background: #727272;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: auto;
+  z-index: 200;
+  /*top:1em;
+	/*left:0;*/
+
+}
+ul#menu li:hover ul {
+  display: block;
+}
+ul#menu li li {
+  background: url('images/sub_sep.gif') bottom left no-repeat;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+ul#menu li:hover li a {
+  background: none;
+}
+ul#menu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+ul#menu li ul a:hover,
+ul#menu li ul li:hover > a {
+	/*on hover of the drop down */
+  background: #93C734 url('images/hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul#menu p {
+  clear: left;
+}
