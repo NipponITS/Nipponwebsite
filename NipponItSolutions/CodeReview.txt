@@ -1,0 +1,2 @@
+1) Transition while dropping of the main menu
+2) Padding for the submenu
