@@ -67,7 +67,7 @@ ul.slimmenu {
 	border: 0px;
 	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: normal;
 	width: auto;
 	list-style: none;
 	float: right;
@@ -92,7 +92,8 @@ ul.slimmenu li {
 	float: left;
 }
 ul.slimmenu > li { 
-margin-right: -5px; border-left: 1px solid #999 
+margin-right: -5px;
+ border-left: 1px solid #999 
 
 /* added */
 	float: left;
@@ -123,7 +124,6 @@ ul.slimmenu li a {
     padding: 5px 25px 5px 25px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: normal;
 
 /* added */
 	line-height: 25px;
@@ -145,11 +145,11 @@ ul.slimmenu li a {
 
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 
-	/*
+	
     transition: background-color 0.5s ease-out;
     -o-transition: background-color 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out;
-    -webkit-transition: background-color 0.5s ease-out; */
+    -webkit-transition: background-color 0.5s ease-out; 
 }
 
 /* added */
@@ -174,25 +174,27 @@ ul.slimmenu li ul a {
 }
 
 ul.slimmenu li a:hover 
-ul.slimmenu ul li:hover > a,
-ul.slimmenu li a.activeTab{
+/*ul.slimmenu ul li:hover > a,
+ul.slimmenu li a.activeTab */{
 
 /* added */
     color: #ffffff;
 	text-decoration: none;
-	   /* RJ : removed
-	background-color: #727272; */
-	font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+
+	/* removed as menu was moving on hover
+	background-color: #727272;
+	font-family: "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif; */
 }
 
 
 /* added */
-ul.menu li ul a:hover,
-ul.menu li ul li:hover > a {
+ul.slimmenu li ul a:hover,
+ul.slimmenu li ul li:hover > a {
 	/*on hover of the drop down */
   border: 0px;
   color: #727272;
-  font-weight: bold;
+  background-color: #FFFFFF;
+
   text-decoration: none;
 
 }
@@ -234,9 +236,9 @@ ul.slimmenu li ul {
 	position: absolute;
 	width: auto;
 	z-index: 200;
-	min-width: 220px;
+	min-width: 240px;
 	 overflow: hidden;
-transition: all 0.3s ease;	
+/* transition: all 0.3s ease;	*/
 }
 
 ul.slimmenu li ul li {
@@ -261,7 +263,7 @@ ul.slimmenu li > ul {
     right: 3%;
 	
 	/* to start the menu affter the green line */
-    top: 140%;
+    top: 100%;
     z-index: 999;
     width: 100%;
 }
@@ -286,8 +288,9 @@ ul.slimmenu.collapsed li a {
     display: block;
 /*    border-bottom: 1px solid rgba(0, 0, 0, 0.075); */
 	
+	height:auto;
 	border-left:0;
-	border-bottom: 2px solid #ffffff;
+	/*border-bottom: 2px solid #ffffff;*/
 
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -303,7 +306,7 @@ ul.slimmenu.collapsed li > ul {
 }
 
 ul.slimmenu.collapsed ul li {
-    display: none;
+    display: block;
     position: static;
 }
 

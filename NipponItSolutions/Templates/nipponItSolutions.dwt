@@ -69,7 +69,11 @@
                             </li>
                         	<li><a href="#" title="Get in touch">Get in touch</a>
                             	<ul>
-                                	<li>Sales Contact Details</li>
+                                	<li style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF;">
+                                    	Contact us <br/>
+                                    	<a href="mailto:sales@nippontechnocraft.com?Subject=Sales_Info" target="_top" style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF;">sales@nippontechnocraft.com</a>
+                                    	+91 (0) 9821884629
+                                    </li>
                                     <li><a href="#" title="Let us call you">Let us call you</a></li>
                                 </ul>
                             </li>
@@ -88,7 +92,9 @@ $('#navigation').slimmenu(
                     </div>
                     <!-- end of MainMenuDiv -->
                   </div>
-                  <!-- end of HeaderDiv --><!-- TemplateBeginEditable name="centerRegion3" -->centerRegion3<!-- TemplateEndEditable -->
+                  <!-- end of HeaderDiv -->
+				  <div id="nipponGreenDiv"></div>
+<!-- TemplateBeginEditable name="centerRegion3" -->centerRegion3<!-- TemplateEndEditable -->
                   <div id="nipponCenterDiv"><!-- TemplateBeginEditable name="CenterRegion" -->This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"

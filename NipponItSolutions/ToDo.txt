@@ -1,7 +1,11 @@
+DONE:
 page-background.jpg -- reduce size
 header_background.png -- reduce size
 nippon_logo.png -- reduce size to 200*70
 footer_background.png -- height 129 (header_background.png) + green line on top may be of 3 px
 
 Remove NavigationMenu.css
+
+TODO:
 convert px to em for fludic
+mobile : wowoslider px rearrangement
