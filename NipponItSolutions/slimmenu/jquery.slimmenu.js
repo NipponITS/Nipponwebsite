@@ -76,6 +76,7 @@
                 $menu = $(event.data.el),
                 $menu_collapser = $('body').find('.menu-collapser');
 				$menu_sub_collapser = $('body').find('.sub-collapser');
+				$slider = $('body').find('wowslider-container1');
 
             $menu.find('li').each(function()
             {
@@ -97,10 +98,12 @@
 				if ($options.resizeWidth >= $window.width())
             {
 				$(this).find('.sub-collapser').show();
+				$(this).find('wowslider-container1').hide();
 			}
 			else
 			{
 				$(this).find('.sub-collapser').hide();
+				$(this).find('wowslider-container1').show();
 			}
 				
             });

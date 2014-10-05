@@ -7,8 +7,10 @@
 	zoom: 1; 
 	position: relative; 
 	max-width:1232px;
-	margin:140px auto 0px;
-	margin-left: 3.4482%;
+	margin-top: 140px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
 	z-index:90;
 	border:none;
 	text-align:left; /* reset align=center */

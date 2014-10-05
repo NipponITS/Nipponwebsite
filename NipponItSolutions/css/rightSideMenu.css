@@ -1,0 +1,65 @@
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+ 
+ ul#rightNav {
+    list-style: none;
+    display: block;
+    width: 275px;
+    position: relative;
+    left: 10px;
+    padding: 60px 0 60px 0;
+    background: url(../images/rightMenu/shad2.png) no-repeat;
+    -webkit-background-size: 50% 100%;	
+	font-size: 18px;
+}
+
+ul#rightNav li a {
+    -webkit-transition: all 0.3s ease-out;
+}
+
+ul#rightNav li a.selected{
+		margin: 5px 0 0 0;
+	background: #727272 url(../images/rightMenu/border.png) no-repeat;
+    color: #ffffff;
+    padding: 2px 10px 2px 10px;
+	width: 275px;
+}
+
+ul#rightNav li a {
+    -webkit-transition: all 0.3s ease-out;
+    background: #F7D2B3 url(../images/rightMenu/border.png) no-repeat;
+    color: #000344;
+    padding: 2px 15px 2px 15px;
+
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 4px #888;
+}
+
+ul#rightNav li a:hover {
+    background: #727272 url(../images/rightMenu/border.png) no-repeat;
+    color: #ffffff;
+    padding: 2px 10px 2px 10px;
+  width: 275px;
+}
+
+li.rightMenu {
+	margin: 5px 0 0 0;
+}
+
+ul#rightNav li a img{
+	height: 30px;
+	width: 30px;
+}

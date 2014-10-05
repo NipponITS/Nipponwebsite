@@ -17,8 +17,7 @@
                <!-- TemplateBeginEditable name="doctitle" -->
                <title>Nippon Technocraft IT Solutions</title>
                <!-- TemplateEndEditable -->
-               <link href="../favicon.ico" rel="icon" type="image/x-icon" />               
-               
+               <link href="../favicon.ico" rel="icon" type="image/x-icon" />                              
                <link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
                <link href="../css/nipponItSolutions.css" rel="stylesheet" type="text/css">
                <link href="../slimmenu/slimmenu.css" rel="stylesheet" type="text/css">
@@ -26,8 +25,7 @@
                <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                <![endif]-->
                <script src="../js/respond.min.js"></script>
-               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-               
+               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>           
 <script src="../slimmenu/jquery.slimmenu.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <!-- TemplateBeginEditable name="head" -->
@@ -44,22 +42,26 @@
                		<div id="nipponNavigationMenuDiv">
                     	<div id="nipponNavigationAdjustDiv"> </div>
                     	<ul id="navigation" class="slimmenu">
-                        	<li><a href="#" title="Who are we?">Who are we?</a>
+                           <li>
+                              <a href="#" title="Who are we?">Who are we?</a>
                             	<ul class="slimsubmenu">
                                 	<li><a href="#" title="Management">Management</a></li>
                                     <li><a href="#" title="Technologies">Technologies</a></li>
                                     <li><a href="#" title="Our Vision">Our Vision</a></li>
                                 </ul>
                             </li>
-                        	<li><a href="#" title="Database Services">Database Services</a>
+                           <li>
+                              <a href="#" title="Database Services">Database Services</a>
                             	<ul>
                                 	<li><a href="#" title="Database Administration">Database Administration</a></li>
                                     <li><a href="#" title="Database Consulting">Database Consulting</a></li>
                                     <li><a href="#" title="Database Development">Database Development</a></li>
                                     <li><a href="#" title="Database Expertise">Database Expertise</a></li>
+                                    <li><a href="#" title="Database Training Services">Database Training</a></li>
                                 </ul>
                             </li>
-                        	<li><a href="#" title="Application Services">Application Services</a>
+                           <li>
+                              <a href="#" title="Application Services">Application Services</a>
                             	<ul>
                                 	<li><a href="#" title="Application Support">Application Support</a></li>
                                     <li><a href="#" title="Application Development">Application Development</a></li>
@@ -67,7 +69,8 @@
                                     <li><a href="#" title="Mobile Applications">Mobile Applications</a></li>
                                 </ul>
                             </li>
-                        	<li><a href="#" title="Get in touch">Get in touch</a>
+                           <li>
+                              <a href="#" title="Get in touch">Get in touch</a>
                             	<ul>
                                 	<li style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF;">
                                     	Contact us <br/>
@@ -80,7 +83,7 @@
 <script>
 $('#navigation').slimmenu(
 {
-    resizeWidth: '800',
+                                  resizeWidth: '975',
     collapserTitle: 'Testing NT',
     animSpeed: 'medium',
     easingEffect: null,
@@ -95,7 +98,8 @@ $('#navigation').slimmenu(
                   <!-- end of HeaderDiv -->
 				  <div id="nipponGreenDiv"></div>
 <!-- TemplateBeginEditable name="centerRegion3" -->centerRegion3<!-- TemplateEndEditable -->
-                  <div id="nipponCenterDiv"><!-- TemplateBeginEditable name="CenterRegion" -->This is the content for Layout Div Tag "nipponCenterDiv"
+                  <div id="nipponCenterDiv">
+                     <!-- TemplateBeginEditable name="CenterRegion" -->This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"This is the content for Layout Div Tag "nipponCenterDiv"
@@ -103,7 +107,8 @@ $('#navigation').slimmenu(
                   This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"
                   This is the content for Layout Div Tag "nipponCenterDiv"
-                  This is the content for Layout Div Tag "nipponCenterDiv"<!-- TemplateEndEditable --></div>
+                     This is the content for Layout Div Tag "nipponCenterDiv"<!-- TemplateEndEditable -->
+                  </div>
                   <!-- TemplateBeginEditable name="centerRegion2" -->centerRegion2<!-- TemplateEndEditable -->
                   <!-- end of CenterDiv -->
                   <div id="nipponFooterDiv">
@@ -114,7 +119,7 @@ $('#navigation').slimmenu(
 					<td>
                     	<p align="left" style="margin-left:10px;" class="footerDivText">To Get in touch, <a href="../pages/ContactUs.html" title="Contact Us">Contact us</a> on
             				<br/>
-             				<img src="../images/contact/callus.png" alt="Nippon Technocraft IT Solutions Call at " width="25" height="25"/><b>&nbsp; +91-9821 123456</b>
+                                 <img src="../images/contact/callus.png" alt="Nippon Technocraft IT Solutions Call at " width="25" height="25"/><b>&nbsp; +91 (0)9821 123456</b>
                 			<br/>
                 			<img src="../images/contact/mail_25.png" alt="Nippon Technocraft IT Solutions Mail at "/> <a href="mailto:sales@nippontechnocraft.com?Subject=Sales_Info" target="_top">sales@nippontechnocraft.com</a>
             			</p>
@@ -138,7 +143,8 @@ $('#navigation').slimmenu(
             <img id="linkedinLink" src="images/contact/linkedin_white_25.png" alt="Nippon Technocraft IT Solutions LinkedIn" onMouseOver="changeImage('linkedinLink','images/contact/linkedin_blue_25.png')" onMouseOut="changeImage('linkedinLink','images/contact/linkedin_white_25.png')"></a>&nbsp; -->
         <a href="#" title="Mail" target="#">
             <img src="../images/contact/mail_gr_25.png" alt="Nippon Technocraft IT Solutions Mail" id="mailLink"  onMouseOver="changeImage('linkedinLink','images/contact/email_white_25.png')" onMouseOut="changeImage('linkedinLink','images/contact/mail_gr_25.png')"></a><br/>
-      </div> <!-- end of contactDiv -->                
+               </div>
+               <!-- end of contactDiv -->                
                </div>
             </body>
          </html>

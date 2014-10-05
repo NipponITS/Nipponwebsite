@@ -84,12 +84,12 @@ img, object, embed, video {
 	height: 0px;
 }
 #nipponContactDiv {
-	clear: none;
+	clear: both;
 	width: 100%;
 	display: block;
 	background-color: #93C734;
 	
-	position:static;
+	position:relative;
 	top:0;
 	text-align: center;	
 }
@@ -102,10 +102,18 @@ img, object, embed, video {
 	float: left;
 	width: 100%;
 }
+#rightMenu {
+	display: inline-block;
+	position: relative;
+	float: left;
+    width: 100%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 30em) {
 .gridContainer {
 	width: 87.75%;
 	padding-left: 1.125%;
@@ -160,12 +168,12 @@ img, object, embed, video {
 	height:0px;
 }
 #nipponContactDiv {
-	clear: none;
+	clear: both;
 	width: 100%;
 	display: block;
 	background-color: #93C734;
 	
-	position:static;
+	position:relative;
 	top:0;
 	text-align: center;	
 }
@@ -180,9 +188,30 @@ img, object, embed, video {
 	width: 100%;
 }
 
+#rightMenu {
+	display: inline-block;
+	position: relative;
+	float: left;
+    width: 100%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+}
+
+@media only screen and (min-width: 975px) {
+#nipponNavigationMenuDiv {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nipponNavigationAdjustDiv {
+	height:0px;
+}	
+
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 48em) {
 .gridContainer {
 	width: 88.5%;
 	max-width: 1232px;
@@ -274,4 +303,12 @@ img, object, embed, video {
 	width: 60%;
 	display: block;
 }
+
+#rightMenu {
+	float: right;
+    width: 30%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+}
+
 }
