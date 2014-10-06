@@ -111,9 +111,19 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
+#content-wrap {
+    float: left;
+    width: 100%;
+	padding-right: 2%;
+	font-family: 'Alegreya',serif;
+	font-size: 18px;
+	background-color: #ffffff;
+} 
+}
+
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 481px) {
 .gridContainer {
 	width: 87.75%;
 	padding-left: 1.125%;
@@ -197,21 +207,18 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
-@media only screen and (min-width: 975px) {
-#nipponNavigationMenuDiv {
-	clear: both;
+#content-wrap {
 	float: left;
-	margin-left: 0;
 	width: 100%;
-	display: block;
+	padding-right: 2%;
+	font-family: 'Alegreya',serif;
+	font-size: 18px;
+	background-color: #ffffff;
 }
-#nipponNavigationAdjustDiv {
-	height:0px;
 }	
-
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 769px) {
 .gridContainer {
 	width: 88.5%;
 	max-width: 1232px;
@@ -311,4 +318,25 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
+#content-wrap {
+    float: left;
+    width: 67%;
+	padding-right: 2%;
+	font-family: 'Alegreya',serif;
+	font-size: 18px;
+	background-color: #ffffff;
+} 
 }
+
+/*@media only screen and (min-width: 975px) {
+#nipponNavigationMenuDiv {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nipponNavigationAdjustDiv {
+	height:0px;
+}
+}*/

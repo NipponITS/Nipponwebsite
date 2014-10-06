@@ -7,7 +7,7 @@
  ul#rightNav {
     list-style: none;
     display: block;
-    width: 275px;
+    width: 300px;
     position: relative;
     left: 10px;
     padding: 60px 0 60px 0;
@@ -25,7 +25,7 @@ ul#rightNav li a.selected{
 	background: #727272 url(../images/rightMenu/border.png) no-repeat;
     color: #ffffff;
     padding: 2px 10px 2px 10px;
-	width: 275px;
+	width: 300px;
 }
 
 ul#rightNav li a {
@@ -52,7 +52,7 @@ ul#rightNav li a:hover {
     background: #727272 url(../images/rightMenu/border.png) no-repeat;
     color: #ffffff;
     padding: 2px 10px 2px 10px;
-  width: 275px;
+  width: 300px;
 }
 
 li.rightMenu {
