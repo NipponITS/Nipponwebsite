@@ -1,2 +1,9 @@
+right side menu tail issue firefox and IE
+onhover not working for contact.
+Right side menu shifted on top in IE
+
+
+Fixed
 1) Transition while dropping of the main menu
 2) Padding for the submenu
+

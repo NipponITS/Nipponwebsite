@@ -63,8 +63,11 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-image: url(../images/footer_background.png);
-	background-repeat: repeat-x;
+	background-image: url(../images/header_background.png);
+	background-repeat: round;
+	text-decoration: none;
+	color: #93C734;
+	font-size: 14px;	
 }
 #logoDiv {
 	clear: both;
@@ -157,8 +160,12 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-image: url(../images/footer_background.png);
-	background-repeat: repeat-x;
+	background-image: url(../images/header_background.png);
+	background-repeat: round;
+	text-decoration: none;
+	color: #93C734;
+	font-size: 14px;
+
 }
 #logoDiv {
 	clear: both;
@@ -208,14 +215,14 @@ img, object, embed, video {
 }
 
 #content-wrap {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 	padding-right: 2%;
 	font-family: 'Alegreya',serif;
 	font-size: 18px;
 	background-color: #ffffff;
+} 
 }
-}	
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
@@ -255,8 +262,11 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-image: url(../images/footer_background.png);
-	background-repeat: repeat-x;
+	background-image: url(../images/header_background.png);
+	background-repeat: round;
+	text-decoration: none;
+	color: #93C734;
+	font-size: 14px;
 }
 #logoDiv {
 	clear: both;
@@ -325,9 +335,40 @@ img, object, embed, video {
 	font-family: 'Alegreya',serif;
 	font-size: 18px;
 	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;		
 } 
 }
 
+
+#nipponFooterDiv a{
+	float: none;
+	font-size:16px;
+	display: inline;
+	text-decoration:none;
+	color: #93C734;
+}
+
+#nipponFooterDiv a:hover{
+	float: none;
+	display: inline;
+	text-decoration: none;
+	color: #ccc;
+}
 /*@media only screen and (min-width: 975px) {
 #nipponNavigationMenuDiv {
 	clear: both;
@@ -338,5 +379,5 @@ img, object, embed, video {
 }
 #nipponNavigationAdjustDiv {
 	height:0px;
-}
+}	
 }*/
