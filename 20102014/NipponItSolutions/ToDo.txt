@@ -7,14 +7,15 @@ footer_background.png -- height 129 (header_background.png) + green line on top 
 Remove NavigationMenu.css
 convert px to em for fludic
 Footer Menu
-
-TODO:
-
 mobile : wowoslider px rearrangement
 
+TODO:
+Add new images of wow slider
+remove wow slider name
 social media pic update
 right menu edge
 bullets
 on hover of social media not working for screen
+after submission caome to same screen
 send mail to enquirer
 

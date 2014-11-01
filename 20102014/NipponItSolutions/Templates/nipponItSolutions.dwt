@@ -21,6 +21,7 @@
                <link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
                <link href="../css/nipponItSolutions.css" rel="stylesheet" type="text/css">
                <link href="../slimmenu/slimmenu.css" rel="stylesheet" type="text/css">
+               <link href="../css/share.css" rel="stylesheet" type="text/css">
                <!--[if lt IE 9]>
                <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                <![endif]-->
@@ -44,24 +45,24 @@
                         <div id="nipponNavigationAdjustDiv"> </div>
                         <ul id="navigation" class="slimmenu">
                            <li>
-                              <a href="#" title="Who are we?">Who are we?</a>
+                              <a href="../whoAreWe/whoAreWe.html" title="Who are we?">Who are we?</a>
                               <ul class="slimsubmenu">
-                                 <li><a href="#" title="Management">Management</a></li>
-                                 <li><a href="#" title="Technologies">Technologies</a></li>
-                                 <li><a href="#" title="Our Vision">Our Vision</a></li>
+                                 <li><a href="../whoAreWe/management.html" title="Management">Management</a></li>
+                                 <li><a href="../whoAreWe/technologies.html" title="Technologies We Work On">Technologies</a></li>
+                                 <li><a href="../whoAreWe/ourVision.html" title="Our Vision">Our Vision</a></li>
                               </ul>
                            </li>
                            <li>
-                              <a href="../databaseServices/" title="Database Services">Database Services</a>
+                              <a href="../databaseServices/databaseServices.html" title="Database Services">Database Services</a>
                               <ul>
-                                 <li><a href="../databaseServices/databaseAdministration/" title="Database Administration">Database Administration</a></li>
-                                 <li><a href="../databaseServices/databaseConsulting/" title="Database Consulting">Database Consulting</a></li>
+                                 <li><a href="../databaseServices/databaseAdministration/databaseAdministration.html" title="Database Administration">Database Administration</a></li>
+                                 <li><a href="../databaseServices/databaseConsulting/databaseConsulting.html" title="Database Consulting">Database Consulting</a></li>
                                  <li><a href="../databaseServices/databaseDevelopment.html" title="Database Development">Database Development</a></li>
                                  <li><a href="../databaseServices/databaseExpertise.html" title="Database Expertise">Database Expertise</a></li>
                                  <li><a href="../databaseServices/databaseTraining.html" title="Database Training Services">Database Training</a></li>
                               </ul>
                            </li>
-                           <li>
+                           <!-- <li>
                               <a href="#" title="Application Services">Application Services</a>
                               <ul>
                                  <li><a href="#" title="Application Support">Application Support</a></li>
@@ -69,23 +70,23 @@
                                  <li><a href="#" title="Digital Presence">Digital Presence</a></li>
                                  <li><a href="#" title="Mobile Applications">Mobile Applications</a></li>
                               </ul>
-                           </li>
+                           </li>-->
                            <li>
-                              <a href="#" title="Get in touch">Get in touch</a>
+                              <a href="../contact.html" title="Get in touch">Get in touch</a>
                               <ul>
                                  <li style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF;">
                                     Contact us <br/>
-                                    <a href="mailto:info@nippontechnocraft.com?Subject=Sales_Info" target="_top" style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF; border-left: 0;">info@nippontechnocraft.com</a>
-                                    +91 (0) 9821884629
+                                    <a href="mailto:information@nipponitsolutions.com?Subject=Sales_Info" target="_top" style="font-size:14px; color:#F60; text-align: center; padding-left: 2px; padding-right: 2px; background-color:#FFF; border-left: 0;">information@nipponitsolutions.com</a>
+                                    +91 (0) 9821 884629
                                  </li>
-                                 <li><a href="#" title="Let us call you">Let us call you</a></li>
+                                 <li><a href="../contact.html" title="Let us call you">Let us call you</a></li>
                               </ul>
                            </li>
                            <script>
                               $('#navigation').slimmenu(
                               {
                                   resizeWidth: '975',
-                                  collapserTitle: 'Testing NT',
+                                  collapserTitle: '',
                                   animSpeed: 'medium',
                                   easingEffect: null,
                                   indentChildren: false,
@@ -118,11 +119,11 @@
                      <div>
           <br/>
           <p align="center" style="margin:0px; padding:0px; text-decoration:none; font-family: "Alegreya",serif;">
-            <a href="NipponItSolutions.html" title="Home" style="font-size:18px">Home</a>&nbsp;|&nbsp; 
-            <a href="NipponItSolutions.html" title="Who are we?" style="font-size:18px">Who are we?</a>&nbsp;|&nbsp; 
-            <a href="pages/DatabaseServices.html" title="Database Services" style="font-size:18px">Database Services</a>&nbsp;|&nbsp; 
-            <a href="pages/ApplicationServices.html" title="Application Services" style="font-size:18px">Application Services</a>&nbsp;|&nbsp; 
-            <a href="pages/ContactUs.html" title="Contact Us" style="font-size:18px">Get in Touch</a>
+            <a href="../index.html" title="Home" style="font-size:18px">Home</a>&nbsp;|&nbsp; 
+            <a href="../whoAreWe/whoAreWe.html" title="Who are we?" style="font-size:18px">Who are we?</a>&nbsp;|&nbsp; 
+            <a href="../databaseServices/databaseServices.html" title="Database Services" style="font-size:18px">Database Services</a>&nbsp;|&nbsp; 
+            <!-- <a href="pages/ApplicationServices.html" title="Application Services" style="font-size:18px">Application Services</a>&nbsp;|&nbsp;  -->
+            <a href="../contact.html" title="Contact Us" style="font-size:18px">Get in Touch</a>
           </p>
           <br/>
         </div>
@@ -130,14 +131,15 @@
                      <table width="100%" border="0">
                         <tr>
                            <td>
-                              <p align="left" style="margin-left:10px;" class="footerDivText"><a href="../pages/ContactUs.html" title="Contact Us">To Get in touch, </a><br/>
-                                 <img src="../images/contact/callus.png" alt="Nippon Technocraft IT Solutions Call at " width="25" height="25"/><b>&nbsp; +91 (0)9821 123456</b>
+                              <p align="left" style="margin-left:10px;" class="footerDivText"><a href="../contact.html" title="Contact Us">To Get in touch, </a><br/>
+                                 <img src="../images/contact/callus.png" alt="Nippon Technocraft IT Solutions Call at " width="25" height="25"/><b>&nbsp; +91 (0) 9821 884629</b>
                                  <br/>
-                                 <img src="../images/contact/mail_25.png" alt="Nippon Technocraft IT Solutions Mail at "/> <a href="mailto:info@nippontechnocraft.com?Subject=Sales_Info" target="_top">info@nippontechnocraft.com</a>
+                                 <img src="../images/contact/mail_25.png" alt="Nippon Technocraft IT Solutions Mail at "/> <a href="mailto:information@nipponitsolutions.com?Subject=Sales_Info" target="_top">information@nipponitsolutions.com</a>
                               </p>
                            </td>
                            <td>
-                              <p align="right" style="margin-right:10px;" class="footerDivText"><br/><br/>&copy; 2014 Nippon Technocraft IT Solutions</p>
+                              <p align="right" style="margin-right:10px;" class="footerDivText"><br/><br/>&copy; 2014 Nippon Technocraft IT Solutions
+                              <br/> Registered in India as <b>Nippon Technocraft</b></p>
                            </td>
                         </tr>
                      </table>
@@ -145,8 +147,7 @@
                </div>
                <!-- end of FooterDiv -->
                <div id="nipponContactDiv">
-                  <a href="../index.html" title="Home">
-                  <img id="homeLink" src="../images/contact/home_white_25.jpg" alt="Nippon Technocraft IT Solutions" onMouseOver="changeImage('homeLink','images/contact/home_green_25.png')" onMouseOut="changeImage('homeLink','images/contact/home_white_25.jpg')")></a>
+					<a class="homeLink" href="../index.html" title="Home"></a>
                   <!-- 
                   <hr/>
                   <a href="#" title="Facebook" target="#">
@@ -158,8 +159,7 @@
                      <a href="#" title="LinkedIn" target="#">
                      <img id="linkedinLink" src="images/contact/linkedin_white_25.png" alt="Nippon Technocraft IT Solutions LinkedIn" onMouseOver="changeImage('linkedinLink','images/contact/linkedin_blue_25.png')" onMouseOut="changeImage('linkedinLink','images/contact/linkedin_white_25.png')"></a> -->
                      <hr/>
-                  <a href="#" title="Mail" target="#">
-                  <img src="../images/contact/mail_gr_25.png" alt="Nippon Technocraft IT Solutions Mail" id="mailLink"  onMouseOver="changeImage('mailLink','images/contact/email_white_25.png')" onMouseOut="changeImage('mailLink','images/contact/mail_gr_25.png')"></a><br/>
+                  <a class="mailLink" href="../contact.html" title="Mail" target="#"></a>
                </div>
                <!-- end of contactDiv -->               
                </div>

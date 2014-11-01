@@ -64,10 +64,10 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	background-image: url(../images/header_background.png);
-	background-repeat: round;
+	background-repeat: repeat;
 	text-decoration: none;
 	color: #93C734;
-	font-size: 14px;	
+	font-size: 14px;
 }
 #logoDiv {
 	clear: both;
@@ -114,6 +114,34 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
+#contactDetails {
+	display: inline-block;
+	position: relative;
+	float: left;
+    width: 100%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+	color: #FFF;
+	background-color: #5F625F;
+	text-align: center;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+}
+
 #content-wrap {
     float: left;
     width: 100%;
@@ -121,10 +149,41 @@ img, object, embed, video {
 	font-family: 'Alegreya',serif;
 	font-size: 18px;
 	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
 } 
 
 #wowslider-container1 {
 	display: none;
+}
+
+
+#mapCanvas {
+	width: 100%;
+	height: 350px;
+	margin-bottom: 2%;
+ }
+	  
+#pageHeaderImg img {
+	float: left;
+    width: 75px;
+    margin: 2%;
+	margin-bottom: 0;
+    padding: 15px;
 }
 }
 
@@ -165,7 +224,7 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	background-image: url(../images/header_background.png);
-	background-repeat: round;
+	background-repeat: repeat;
 	text-decoration: none;
 	color: #93C734;
 	font-size: 14px;
@@ -218,6 +277,34 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
+#contactDetails {
+	display: inline-block;
+	position: relative;
+	float: left;
+    width: 100%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+	color: #FFF;
+	background-color: #5F625F;
+	text-align: center;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+}
+
 #content-wrap {
     float: left;
     width: 100%;
@@ -225,11 +312,42 @@ img, object, embed, video {
 	font-family: 'Alegreya',serif;
 	font-size: 18px;
 	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
 }
 
 #wowslider-container1 {
 	display: none;
 } 
+
+
+	#mapCanvas {
+        width: 100%;
+        height: 350px;
+		margin-bottom: 2%;
+      }
+	  
+	  #pageHeaderImg img {
+	float: left;
+    width: 150px;
+    margin: 2%;
+	margin-bottom: 0;
+    padding: 15px;
+}
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
@@ -271,7 +389,7 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	background-image: url(../images/header_background.png);
-	background-repeat: round;
+	background-repeat: repeat;
 	text-decoration: none;
 	color: #93C734;
 	font-size: 14px;
@@ -336,6 +454,31 @@ img, object, embed, video {
 	font-family: "Alegreya",serif;
 }
 
+#contactDetails {
+	float: right;
+    width: 30%;
+	font-size: 18px;
+	font-family: "Alegreya",serif;
+	color: #FFF;
+	background-color: #5F625F;
+	text-align: center;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+}
+
 #content-wrap {
     float: left;
     width: 67%;
@@ -364,6 +507,21 @@ img, object, embed, video {
 #wowslider-container1 {
 	display: block;
 } 
+
+
+	#mapCanvas {
+        width: 67%;
+        height: 350px;
+		margin-bottom: 2%;
+      }
+
+#pageHeaderImg img {
+	float: left;
+    width: 150px;
+    margin: 2%;
+	margin-bottom: 0;
+    padding: 15px;
+}
 }
 
 
