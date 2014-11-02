@@ -79,7 +79,7 @@
 			},
 			submitHandler: function(form) {
 				// do other stuff for a valid form
-				$.post('process.php', $("#contactUs").serialize(), function(data) {
+				$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
 					$('#results').html(data);
 				});
 
@@ -225,11 +225,11 @@
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
-  <br/><img src="captcha_old.php" width="120" height="30" border="1" alt="CAPTCHA" id="captcha_img"> 
+  <br/><img src="js/php/captcha.php" width="120" height="30" border="1" alt="CAPTCHA" id="captcha_img"> 
   &nbsp; &nbsp; &nbsp; &nbsp;
   <input type="text" size="6" maxlength="5" name="captcha" id="captcha" value=""> 
   &nbsp; &nbsp;
-  <small><a href="#" onclick=" document.getElementById('captcha_img').src = 'captcha_old.php?' + Math.random(); document.getElementById('captcha').value = ''; return false; ">refresh</a></small> <br>
+  <small><a href="#" onclick=" document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random(); document.getElementById('captcha').value = ''; return false; ">refresh</a></small> <br>
   <small>copy the digits from the above image into this box</small></p>
  </td>
 </tr>
@@ -241,7 +241,7 @@
 	document.getElementById('email').value='';
 	document.getElementById('telephone').value='';
 	document.getElementById('comments').value='';
-	document.getElementById('captcha_img').src = 'captcha_old.php?' + Math.random();
+	document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
 	document.getElementById('captcha').value = '';	"/>
   &nbsp; &nbsp; &nbsp; &nbsp;    
 <!--  <input type="submit" value="Send" name="submit">    -->
