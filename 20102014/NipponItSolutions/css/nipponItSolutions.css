@@ -185,6 +185,16 @@ img, object, embed, video {
 	margin-bottom: 0;
     padding: 15px;
 }
+
+#content-wrap h1 {
+	font-size: 28px;
+	text-decoration:underline;
+	color: #195aa5;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 2%;
+}
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -347,6 +357,15 @@ img, object, embed, video {
     margin: 2%;
 	margin-bottom: 0;
     padding: 15px;
+}
+#content-wrap h1 {
+	font-size: 28px;
+	text-decoration:underline;
+	color: #195aa5;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 2%;
 }
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -521,6 +540,15 @@ img, object, embed, video {
     margin: 2%;
 	margin-bottom: 0;
     padding: 15px;
+}
+#content-wrap h1 {
+	font-size: 28px;
+	text-decoration:underline;
+	color: #195aa5;
+	font-weight: bold;
+	padding-bottom: 70px;
+	padding-top: 60px;
+	padding-left: 2%;
 }
 }
 

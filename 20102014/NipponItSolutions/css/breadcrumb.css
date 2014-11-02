@@ -21,16 +21,6 @@
 	margin-left: 2%;
 }
 
-#content-wrap h1 {
-		font-size: 28px;
-	text-decoration:underline;
-	color: #195aa5;
-	font-weight: bold;
-	padding-bottom: 2%;
-	padding-top: 2%;
-		padding-left: 2%;
-}
-
 #mainContent ul {
 	list-style-type: square;
 }
@@ -48,3 +38,7 @@
 	height: 2px;
 	background-color: #195aa5;
 }
+
+ul.checked {
+list-style-image: url(../images/contact/tick.png);
+} 
