@@ -219,18 +219,20 @@
   <label for="comments" label="comments_label">How can we help you <span style="color: red;">*</span></label>
  </td>
  <td valign="top">
-  <textarea  name="comments" id="comments" maxlength="1000" cols="28	" rows="6"></textarea>
+  <textarea  name="comments" id="comments" maxlength="1000" cols="28" rows="6"></textarea>
  </td>
  
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
+ 	<br/>
+  <small>Copy the digits from the image into the box</small>
+  <br/>
   <br/><img src="js/php/captcha.php" width="120" height="30" border="1" alt="CAPTCHA" id="captcha_img"> 
   &nbsp; &nbsp; &nbsp; &nbsp;
   <input type="text" size="6" maxlength="5" name="captcha" id="captcha" value=""> 
   &nbsp; &nbsp;
-  <small><a href="#" onclick=" document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random(); document.getElementById('captcha').value = ''; return false; ">refresh</a></small> <br>
-  <small>copy the digits from the above image into this box</small></p>
+  <a href="#" title="Refresh" onclick=" document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random(); document.getElementById('captcha').value = ''; return false; "><img src="images/contact/refreshCaptcha.png" alt="Refresh"></a><br/><br/>
  </td>
 </tr>
 <tr>

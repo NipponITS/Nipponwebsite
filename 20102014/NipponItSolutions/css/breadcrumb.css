@@ -40,5 +40,5 @@
 }
 
 ul.checked {
-list-style-image: url(../images/contact/tick.png);
+	list-style-image: url(../images/contact/tick.png);
 } 
