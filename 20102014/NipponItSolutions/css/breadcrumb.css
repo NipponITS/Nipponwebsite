@@ -11,34 +11,3 @@
 	color: #93c734;
 	font-size:16px;
 }
-
-.pageHeader {
-	font-size:20px;
-	color: #ef6b21;
-} 
-
-#mainContent {
-	margin-left: 2%;
-}
-
-#mainContent ul {
-	list-style-type: square;
-}
-
-#mainContent p {
-    text-indent: 50px;
-}
-
-.mainContentSeperator {
-	height: 2px;
-	background-color: #ef6b21;
-}
-
-#mainHeaderSeperator {
-	height: 2px;
-	background-color: #195aa5;
-}
-
-ul.checked {
-	list-style-image: url(../images/contact/tick.png);
-} 
