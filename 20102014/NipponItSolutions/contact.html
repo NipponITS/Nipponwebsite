@@ -84,7 +84,7 @@
 					$('#results').html(data);
 				});
 
-				document.getElementById('captcha_img').src = 'captcha_old.php?' + Math.random();
+				document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
 				document.getElementById('captcha').value = '';
 			}
 		});
@@ -93,12 +93,6 @@
 	</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
-	#results {font-size: 24px;
-			font-weight: bold;
-			}
-	#captcha_img {
-		border: medium #000 solid;
-	}
 	</style>
 <!-- InstanceEndEditable -->
             </head>
@@ -116,7 +110,8 @@
                            <li>
                               <a href="whoAreWe/whoAreWe.html" title="Who are we?">Who are we?</a>
                               <ul class="slimsubmenu">
-                                 <li><a href="whoAreWe/management.html" title="Management">Management</a></li>
+                              	<li><a href="whoAreWe/whoAreWe.html" title="About Us">About Us</a>
+                                 <!--<li><a href="../whoAreWe/management.html" title="Management">Management</a></li>-->
                                  <li><a href="whoAreWe/technologies.html" title="Technologies We Work On">Technologies</a></li>
                                  <li><a href="whoAreWe/ourVision.html" title="Our Vision">Our Vision</a></li>
                               </ul>

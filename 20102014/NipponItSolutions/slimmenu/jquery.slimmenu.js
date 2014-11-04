@@ -76,7 +76,7 @@
                 $menu = $(event.data.el),
                 $menu_collapser = $('body').find('.menu-collapser');
 				$menu_sub_collapser = $('body').find('.sub-collapser');
-				$slider = $('body').find('wowslider-container1');
+				$slider = $('body').find('ntitsslider-container1');
 
             $menu.find('li').each(function()
             {

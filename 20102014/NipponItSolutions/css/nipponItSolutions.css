@@ -58,3 +58,14 @@ ul.checked {
 	display: inline-block; 	
 	border-right: 1px #ef6b21 solid;
 }
+
+#results {
+		font-size: 24px;
+		font-weight: bold;
+		color: #93C734 ;
+		background-color: #727272;
+}
+
+#captcha_img {
+		border: medium #000 solid;
+}
