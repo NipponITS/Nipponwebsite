@@ -219,6 +219,12 @@ img, object, embed, video {
 	padding-top: 10px;
 	padding-left: 2%;
 }
+.mainPageImg {
+	width: 45%; 
+	text-align:center; 
+	display: inline-block; 	
+	border-right: 2px #ef6b21 solid;
+}
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -414,6 +420,12 @@ img, object, embed, video {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 2%;
+}
+.mainPageImg {
+	width: 30%; 
+	text-align:center; 
+	display: inline-block; 	
+	border-right: 2px #ef6b21 solid;
 }
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -614,23 +626,15 @@ img, object, embed, video {
 	padding-top: 60px;
 	padding-left: 2%;
 }
+
+.mainPageImg {
+	width: 20%; 
+	text-align:center; 
+	display: inline-block; 	
+	border-right: 2px #ef6b21 solid;
+}
 }
 
-
-#nipponFooterDiv a{
-	float: none;
-	font-size:16px;
-	display: inline;
-	text-decoration:none;
-	color: #93C734;
-}
-
-#nipponFooterDiv a:hover{
-	float: none;
-	display: inline;
-	text-decoration: none;
-	color: #ccc;
-}
 /*@media only screen and (min-width: 975px) {
 #nipponNavigationMenuDiv {
 	clear: both;

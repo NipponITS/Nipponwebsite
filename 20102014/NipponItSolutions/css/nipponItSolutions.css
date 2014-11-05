@@ -52,11 +52,11 @@ ul.checked {
 	padding-left: 5%;
 }
 
-.mainPageImg {
-	width: 20%; 
-	text-align:center; 
-	display: inline-block; 	
-	border-right: 1px #ef6b21 solid;
+#main-content-wrap a {
+	font-size: 24px;
+	text-decoration:none;
+	color: #195aa5;
+	font-weight: bold;
 }
 
 #results {
@@ -68,4 +68,24 @@ ul.checked {
 
 #captcha_img {
 		border: medium #000 solid;
+}
+
+#nipponFooterDiv a{
+	float: none;
+	font-size:16px;
+	display: inline;
+	text-decoration:none;
+	color: #93C734;
+}
+
+#nipponFooterDiv a:hover{
+	float: none;
+	display: inline;
+	text-decoration: none;
+	color: #ccc;
+}
+
+.mainPageImg img{
+	width: 100px; 
+	text-align:center; 
 }
