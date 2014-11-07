@@ -85,7 +85,26 @@ ul.checked {
 	color: #ccc;
 }
 
-.mainPageImg img{
+.imgVerticalMenu img{
 	width: 100px; 
 	text-align:center; 
+}
+
+.imgVerticalMenu{
+	text-align:center;
+	list-style-type: none; 
+	list-style-position: outside; 
+	list-style-image:  none;
+}
+
+.imgVerticalMenu li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.imgVerticalMenuText{
+	font-size: 18px;
 }
