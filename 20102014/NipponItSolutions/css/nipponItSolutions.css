@@ -13,6 +13,7 @@
 .pageHeader {
 	font-size:20px;
 	color: #ef6b21;
+	margin-left: 20px;
 } 
 
 #mainContent {
@@ -21,10 +22,17 @@
 
 #mainContent ul {
 	list-style-type: square;
+	margin-left: 20px;
+}
+
+#mainContent ol {
+	margin-left: 20px;
 }
 
 #mainContent p {
     text-indent: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .mainContentSeperator {
@@ -107,4 +115,14 @@ ul.checked {
 
 .imgVerticalMenuText{
 	font-size: 18px;
+}
+
+.detailImg {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.noIndent {
+	text-indent: 20px;
 }
