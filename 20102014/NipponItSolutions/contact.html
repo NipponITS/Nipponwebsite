@@ -72,12 +72,9 @@
 				comments: "required",
 				captcha: "required"
 			},
-			messages: {
-				name: "<br/> Please let us know who you are.<br/>",
-				email: "<br/> A valid email will help us get in touch with you.<br/>",
-				comments: "<br/> Please let us know How we can help you.<br/>",
-				captcha: "<br/> copy the digits from the above image into this box.<br/>",
-			},
+	        errorPlacement: function(){
+	            return false;
+    	    },
 			submitHandler: function(form) {
 				// do other stuff for a valid form
 				$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
@@ -93,7 +90,21 @@
 	</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
+
+	.error {
+	    border: 2px solid #f00;
+	}
 	</style>
+    
+    <!--
+    			messages: {
+				name: "<br/> Please let us know who you are.<br/>",
+				email: "<br/> A valid email will help us get in touch with you.<br/>",
+				comments: "<br/> Please let us know How we can help you.<br/>",
+				captcha: "<br/> copy the digits from the above image into this box.<br/>",
+			},
+
+    -->
 <!-- InstanceEndEditable -->
             </head>
             <body>
