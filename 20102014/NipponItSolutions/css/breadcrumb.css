@@ -5,9 +5,10 @@
 }
 
 #breadcrumbDiv {
-	padding-top: 6.5%;
+	padding-top: 1%;
 	padding-bottom: 0.5%;
 	width: 100%;
 	color: #93c734;
 	font-size:16px;
+	float: left;
 }
