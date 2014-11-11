@@ -78,6 +78,7 @@
 			submitHandler: function(form) {
 				// do other stuff for a valid form
 				$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
+					alert(data);
 					$('#results').html(data);
 				});
 
@@ -85,8 +86,25 @@
 				document.getElementById('captcha').value = '';
 			}
 		});
+		
 	}
 	);
+	
+	
+	function clear_form_elements(ele) {	 
+		alert("reset");
+		$('#results').html("");
+		
+	    $(ele).find(':input').each(function() {
+	        switch(this.type) {
+	            case 'text':
+	            case 'textarea':
+	                $(this).val('');
+					$(this).removeClass("error");
+	                break;
+	        }
+	    });
+	}
 	</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
@@ -248,13 +266,7 @@
 <tr>
 <td colspan="2" style="text-align:center">
   <input type="image" value="Reset" name="reset" src="images/contact/reset.png" border="0" alt="reset" onclick="
-  	document.getElementById('name').value='';
-	document.getElementById('company_name').value='';
-	document.getElementById('email').value='';
-	document.getElementById('telephone').value='';
-	document.getElementById('comments').value='';
-	document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
-	document.getElementById('captcha').value = '';	"/>
+	  clear_form_elements(this.form); return false;"/>
   &nbsp; &nbsp; &nbsp; &nbsp;    
 <!--  <input type="submit" value="Send" name="submit">    -->
   	<input type="image" name="submit" src="images/contact/send.png" border="0" alt="Submit" />

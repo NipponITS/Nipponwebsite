@@ -53,9 +53,15 @@ $email_message_reply ="Thank you for your interest in Nippon Technocraft IT Solu
 $email_message_reply .="\n";
 $email_message_reply .="\n";
 $email_message_reply .="From,\n";
-$email_message_reply .="Nippon Technocraft IT Solutions\n";
-$email_message_reply .="Address\n";
-$email_message_reply .="Telephone\n";
+$email_message_reply .="Nippon Technocraft IT Solutions\n\n";
+$email_message_reply .="Address :\n";
+$email_message_reply .="5, Vishal Apartment, S. V. P. Road, Kandivali West.\n";
+$email_message_reply .="Mumbai - 400 067.\n";
+$email_message_reply .="Maharashtra.\n";
+$email_message_reply .="India.\n";
+$email_message_reply .="\n";
+$email_message_reply .="Direct Contact : +91 (0) 9821 884629 \n";
+$email_message_reply .="Fax +91 (022) 28085940 \n";
 
 // create email headers
 $email_subject_reply = "Nippon Technocraft IT Solutions - Enquiry";
@@ -65,5 +71,5 @@ $headers_reply = 'From: '.$email_to."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_from, $email_subject_reply, $email_message_reply, $headers_reply); 
 
-	print "Thank you for your interest in Nippon Technocraft IT Solutions.\n Our team will get back with you very soon.</b><br>";
+	print "Thank you for your interest in Nippon Technocraft IT Solutions.<br/> Our team will get back with you very soon.</b><br>";
 ?>
