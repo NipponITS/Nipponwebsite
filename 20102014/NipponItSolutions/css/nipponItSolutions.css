@@ -23,6 +23,7 @@
 #mainContent ul {
 	list-style-type: square;
 	margin-left: 20px;
+	margin-right: 40px;
 }
 
 #mainContent ol {
@@ -32,7 +33,7 @@
 #mainContent p {
     text-indent: 0px;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 .mainContentSeperator {
@@ -60,6 +61,13 @@ ul.checked {
 
 #main-content-wrap a {
 	font-size: 24px;
+	text-decoration:none;
+	color: #195aa5;
+	font-weight: bold;
+}
+
+#content-wrap a {
+	font-size: 18px;
 	text-decoration:none;
 	color: #195aa5;
 	font-weight: bold;
