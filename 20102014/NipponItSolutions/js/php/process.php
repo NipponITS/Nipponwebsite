@@ -70,6 +70,6 @@ $headers_reply = 'From: '.$email_to."\r\n".
 'Reply-To: '.$email_to."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_from, $email_subject_reply, $email_message_reply, $headers_reply); 
-
+	echo "<script> resetAfterSuccess(); </script>";
 	print "Thank you for your interest in Nippon Technocraft IT Solutions.<br/> Our team will get back with you very soon.</b><br>";
 ?>
