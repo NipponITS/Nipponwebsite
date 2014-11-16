@@ -1,10 +1,20 @@
-function resetContactUs(){
-	alert("hello");
-	document.getElementById("name").value='';
-	document.getElementById("company_name").value='';
-	document.getElementById("email").value='';
-	document.getElementById("telephone").value='';
-	document.getElementById("comments").value='';
-	document.getElementById("captcha_img").src = 'captcha_old.php?' + Math.random();
-	document.getElementById("captcha").value = '';				
+function clearFormPlements(ele) {	 
+		$('#results').html("");
+		clearFormElements(ele);
+	}
+	
+function clearFormElements(ele) {
+	    $(ele).find(':input').each(function() {
+	        switch(this.type) {
+	            case 'text':
+	            case 'textarea':
+	                $(this).val('');
+					$(this).removeClass("error");
+	                break;
+	        }
+	    });
+}
+	
+function resetAfterSuccess() {
+	clearFormElements(document.getElementById("contactUs"));
 }

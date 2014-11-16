@@ -77,35 +77,15 @@
 	            return false;
     	    },
 			submitHandler: function(form) {
-				// do other stuff for a valid form
 				$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
-					alert(data);
 					$('#results').html(data);
 				});
-
 				document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
 				document.getElementById('captcha').value = '';
 			}
-		});
-		
+		});		
 	}
-	);
-	
-	
-	function clear_form_elements(ele) {	 
-		alert("reset");
-		$('#results').html("");
-		
-	    $(ele).find(':input').each(function() {
-	        switch(this.type) {
-	            case 'text':
-	            case 'textarea':
-	                $(this).val('');
-					$(this).removeClass("error");
-	                break;
-	        }
-	    });
-	}
+	);	
 	</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
@@ -236,7 +216,7 @@
 </tr>
 <tr>
  <td valign="top">
-  <label for="telephone" id ="telephone_label">Telephone Number</label>
+  <label for="telephone" id ="telephone_label">Telephone Number <span style="color: red;">*</span></label>
  </td>
  <td valign="top">
   <input  type="text" name="telephone" id="telephone" maxlength="30" size="30" value ="">
@@ -268,7 +248,7 @@
 <tr>
 <td colspan="2" style="text-align:center">
   <input type="image" value="Reset" name="reset" src="images/contact/reset.png" border="0" alt="reset" onclick="
-	  clear_form_elements(this.form); return false;"/>
+	  clearFormElements(this.form); return false;"/>
   &nbsp; &nbsp; &nbsp; &nbsp;    
 <!--  <input type="submit" value="Send" name="submit">    -->
   	<input type="image" name="submit" src="images/contact/send.png" border="0" alt="Submit" />
