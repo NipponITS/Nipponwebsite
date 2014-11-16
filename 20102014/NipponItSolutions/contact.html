@@ -59,34 +59,6 @@
 
 				<!-- contact form -->
 			   <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
-			   <script type="text/javascript">
-	$(document).ready(function(){
-		$("#contactUs").validate({
-			debug: false,
-			rules: {
-				name: "required",
-				telephone: "required",
-				email: {
-					required: true,
-					email: true
-				},
-				comments: "required",
-				captcha: "required"
-			},
-	        errorPlacement: function(){
-	            return false;
-    	    },
-			submitHandler: function(form) {
-				$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
-					$('#results').html(data);
-				});
-				document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
-				document.getElementById('captcha').value = '';
-			}
-		});		
-	}
-	);	
-	</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
 
@@ -276,7 +248,7 @@
 +91 (0) 22 28633327
 <br/>
 <span style="color:#93C734;"><u>Fax</u></span>
-+91 (022) 28085940
++91 (0) 22 28085940
 <br/><br/>
 <span style="color:#93C734;"><img src="images/contact/mail_25.png" alt="Mail">&nbsp; <u>Email</u></span>
 <br/>
@@ -295,7 +267,10 @@ For Application Services,
   <!-- InstanceEndEditable -->
                   </div>
                   <!-- InstanceBeginEditable name="centerRegion2" -->
-    <div id="mapCanvas">		    
+    <div>              
+    Locate us :
+    <div id="mapCanvas" style="border: 8px solid #5f625f;">		    
+    </div>
     </div>
 				  <!-- InstanceEndEditable -->
                   <!-- end of CenterDiv -->
@@ -327,12 +302,12 @@ For Application Services,
                </div>
                <!-- end of FooterDiv -->
                <div id="nipponContactDiv">
-					<a class="homeLink" href="index.html" title="Home"></a>
-                  <!-- 
+					<a class="homeLink" href="index.html" title="Home"></a> 
                   <hr/>
-                  <a href="#" title="Facebook" target="#">
-                     <img id="facebookLink" src="images/contact/facebook_white_25.png" alt="Nippon Technocraft IT Solutions Facebook" onMouseOver="changeImage('facebookLink','images/contact/facebook_blue_25.png')" onMouseOut="changeImage('facebookLink','images/contact/facebook_white_25.png')"></a>
-                     <hr/>
+                  <a class="facebookLink" href="https://www.facebook.com/NipponITS" title="Facebook"></a>
+                  <hr/>
+                  <a class="googlePlusLink" href="https://plus.google.com/105368650224203407633" title="Google+"></a>                  
+<!--                     <hr/>
                      <a href="#" title="Twitter" target="#">
                      <img id="twitterLink" src="images/contact/twitter_white_25.png" alt="Nippon Technocraft IT Solutions Twitter" onMouseOver="changeImage('twitterLink','images/contact/twitter_blue_25.png')" onMouseOut="changeImage('twitterLink','images/contact/twitter_white_25.png')"></a>
                      <hr/>

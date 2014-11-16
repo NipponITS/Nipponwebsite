@@ -19,3 +19,25 @@
 .mailLink:hover {
 	background: url(../images/contact/mail_25.png) no-repeat center;
 }
+
+.facebookLink {
+	background: url(../images/contact/facebook_white_25.png) no-repeat center;
+	height: 25px;
+	display: block;
+	text-align:center;
+}
+
+.facebookLink:hover {
+	background: url(../images/contact/facebook_blue_25.png) no-repeat center;
+ }
+ 
+.googlePlusLink {
+	background: url(../images/contact/google_red.png) no-repeat center;
+	height: 25px;
+	display: block;
+	text-align:center;
+}
+
+.googlePlusLink:hover {
+	background: url(../images/contact/google_white.png) no-repeat center;
+ }
