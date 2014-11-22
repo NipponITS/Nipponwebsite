@@ -40,4 +40,26 @@
 
 .googlePlusLink:hover {
 	background: url(../images/contact/google_white.png) no-repeat center;
- }
+}
+					  
+.linkedinLink {
+	background: url(../images/contact/linkedin_white_25.png) no-repeat center;
+	height: 25px;
+	display: block;
+	text-align:center;
+}
+
+.linkedinLink:hover {
+	background: url(../images/contact/linkedin_blue_25.png) no-repeat center;
+}
+					  
+.twitterLink {
+	background: url(../images/contact/twitter_white_25.png) no-repeat center;
+	height: 25px;
+	display: block;
+	text-align:center;
+}
+
+.twitterLink:hover {
+	background: url(../images/contact/twitter_blue_25.png) no-repeat center;
+}
