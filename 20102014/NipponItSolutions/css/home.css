@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* Mobile Layout: 480px and below. */
+#home-content-wrap {
+    float: left;
+    width: 100%;
+	font-family: 'Alegreya',serif;
+	font-size: 16px;
+	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+} 
+
+#home-right-content-wrap {
+    float: left;
+    width: 100%;
+} 
+
+.homeHeader {
+	font-size:24px;
+	color: #ef6b21;
+	margin-left: 10px;
+}
+
+.homeSubHeader {
+	font-size:20px;
+	color: #195aa5;
+	margin-left: 10px;	
+	text-decoration: none;	
+	font-weight:bold;	
+}
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+#home-content-wrap {
+    float: left;
+    width: 100%;
+	padding-right: 2%;
+	font-family: 'Alegreya',serif;
+	font-size: 18px;
+	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+}
+
+#home-right-content-wrap {
+    float: left;
+    width: 100%;
+}
+
+.homeHeader {
+	font-size:24px;
+	color: #ef6b21;
+	margin-left: 20px;
+}
+
+.homeSubHeader {
+	font-size:20px;
+	color: #195aa5;
+	margin-left: 20px;	
+	text-decoration: none;	
+	font-weight:bold;
+}
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+#home-content-wrap {
+    float: left;
+    width: 67%;
+	padding-right: 2%;
+	font-family: 'Alegreya',serif;
+	font-size: 18px;
+	background-color: #ffffff;
+	margin-bottom: 2%;
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+	
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft:15px;
+		
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;		
+}
+
+#home-right-content-wrap {
+    float: right;
+    width: 30%;
+}
+
+.homeHeader {
+	font-size:24px;
+	color: #ef6b21;
+	margin-left: 20px;	
+}
+
+.homeSubHeader {
+	font-size:20px;
+	color: #195aa5;
+	margin-left: 20px;	
+	text-decoration: none;
+	font-weight:bold;
+}
+}
+
+.homeContentSeperator {	
+	height: 2px;
+	background-color: #ef6b21;
+	margin-left: 25px;
+	margin-right: 0px;
+}
+
+.homePara {
+	font-size: 18px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.readMore {
+	text-decoration: none;
+	font-weight: bold;
+	color: #195aa5;
+}
