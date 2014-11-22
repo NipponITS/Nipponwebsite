@@ -1,0 +1,94 @@
+#footerContactDetail {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+}
+
+#footerCopyright {
+	width: 40%;
+	float: right;
+	margin-right: 10px;
+}
+
+.mainContentSeperator {
+	height: 2px;
+	background-color: #ef6b21;
+	margin-right: 25px;
+}
+
+#mainHeaderSeperator {
+	height: 2px;
+	background-color: #195aa5;
+}
+
+ul.checked {
+	list-style-image: url(../images/contact/tick.png);
+} 
+
+#content-wrap a {
+	font-size: 18px;
+	text-decoration:none;
+	color: #195aa5;
+	font-weight: bold;
+}
+
+#results {
+		font-size: 24px;
+		font-weight: bold;
+		color: #93C734 ;
+		background-color: #727272;
+}
+
+#captcha_img {
+		border: medium #000 solid;
+}
+
+#nipponFooterDiv a{
+	float: none;
+	font-size:16px;
+	display: inline;
+	text-decoration:none;
+	color: #93C734;
+}
+
+#nipponFooterDiv a:hover{
+	float: none;
+	display: inline;
+	text-decoration: none;
+	color: #ccc;
+}
+
+.imgVerticalMenu img{
+	width: 100px; 
+	text-align:center; 
+}
+
+.imgVerticalMenu{
+	text-align:center;
+	list-style-type: none; 
+	list-style-position: outside; 
+	list-style-image:  none;
+}
+
+.imgVerticalMenu li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.imgVerticalMenuText{
+	font-size: 18px;
+}
+
+.detailImg {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.clickHere {
+	text-decoration: none;
+	color: #195aa5;
+}
