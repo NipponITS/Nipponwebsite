@@ -3,8 +3,9 @@ Nippon Technocraft
 Nippon Technocraft IT solutions
 IT solution
 IT solutions
+
 Database Administration
-Database Consultaning
+Database Consulting
 Database Designing
 Database development
 Database Expertise
@@ -26,7 +27,7 @@ Oracle Exadata
 Oracle Fusion Application
 Oracle Siebel
 Oracle Application Express
-
+Oracle EXADATA
 
 MySQL
 Microsoft SQL Server
