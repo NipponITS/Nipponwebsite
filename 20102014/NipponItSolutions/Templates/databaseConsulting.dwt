@@ -62,7 +62,7 @@
                   </div>
                   <div id="nipponHeaderDiv">
                      <div id="logoDiv">
-                        <p style="width:200px;"><a href="../index.html" title="NIppon Technocraft IT Solutions"><img src="../images/nippon_logo.png" alt="Nippon Technocraft IT Solutions" width="200" height="70" ></a></p>
+                        <p style="width:200px;"><a href="../" title="NIppon Technocraft IT Solutions"><img src="../images/nippon_logo.png" alt="Nippon Technocraft IT Solutions" width="200" height="70" ></a></p>
                      </div>
                      <div id="nipponNavigationMenuDiv">
                         <div id="nipponNavigationAdjustDiv"> </div>
@@ -160,7 +160,7 @@
                      <div>
           <br/>
           <p align="center" style="margin:0px; padding:0px; text-decoration:none; font-family: "Alegreya",serif;">
-            <a href="../index.html" title="Home" style="font-size:18px">Home</a>&nbsp;|&nbsp; 
+            <a href="../" title="Home" style="font-size:18px">Home</a>&nbsp;|&nbsp; 
             <a href="../whoAreWe/whoAreWe.html" title="Who are we?" style="font-size:18px">Who are we?</a>&nbsp;|&nbsp; 
             <a href="../databaseServices/databaseServices.html" title="Database Services" style="font-size:18px">Database Services</a>&nbsp;|&nbsp; 
             <!-- <a href="pages/ApplicationServices.html" title="Application Services" style="font-size:18px">Application Services</a>&nbsp;|&nbsp;  -->

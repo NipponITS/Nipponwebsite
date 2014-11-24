@@ -64,6 +64,34 @@
 
 				<!-- contact form -->
 			   <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+				<script type="text/javascript">
+								$(document).ready(function(){
+					$("#contactUs").validate({
+						debug: false,
+						rules: {
+							name: "required",
+							email: {
+								required: true,
+								email: true
+							},
+							telephone: "required",
+							comments: "required",
+							captcha: "required"
+						},			
+						errorPlacement: function(){
+							return false;
+						},
+						submitHandler: function(form) {
+							$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
+								$('#results').html(data);
+							});
+							document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
+							document.getElementById('captcha').value = '';
+						}
+					});		
+				}
+				);	
+				</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
 
@@ -83,6 +111,7 @@
 
     -->
 <!-- InstanceEndEditable -->
+  
                <script>
 				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
