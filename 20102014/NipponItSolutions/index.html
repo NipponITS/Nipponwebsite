@@ -53,7 +53,7 @@
 							},
 							telephone: "required",
 							comments: "required",
-							captcha: "required"
+							captcha_index: "required"
 						},			
 						errorPlacement: function(){
 							return false;
@@ -62,8 +62,6 @@
 							$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
 								$('#results').html(data);
 							});
-							document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
-							document.getElementById('captcha').value = '';
 						}
 					});		
 				}
@@ -219,6 +217,7 @@
                         	<div class="pageHeader" ><br/>Quick Contact :</div>
                           	<div id="results"></div><br/>
                                 <form name="contactUs" id="contactUs" action=""  style="margin-left: 5%;">
+								<input type="hidden" name="fromPage" value="index">
                                 <table width="100%">
                                 </tr>
                                 <tr>
@@ -266,11 +265,11 @@
                                     <br/>
                                   <small>Copy the digits from the image into the box</small>
                                   <br/>
-                                  <br/><img src="js/php/captcha.php" width="120" height="30" border="1" alt="CAPTCHA" id="captcha_img"> 
+                                  <br/><img src="js/php/captcha_index.php" width="120" height="30" border="1" alt="CAPTCHA" id="captcha_img_index"> 
                                   &nbsp; &nbsp; 
-                                  <a href="#" title="Refresh" onclick=" document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random(); document.getElementById('captcha').value = ''; return false; "><img src="images/contact/refreshCaptcha.png" alt="Refresh"></a>
+                                  <a href="#" title="Refresh" onclick=" document.getElementById('captcha_img_index').src = 'js/php/captcha_index.php?' + Math.random(); document.getElementById('captcha_index').value = ''; return false; "><img src="images/contact/refreshCaptcha.png" alt="Refresh"></a>
                                   &nbsp; &nbsp;
-                                  <input type="text" size="6" maxlength="5" name="captcha" id="captcha" value=""> 
+                                  <input type="text" size="6" maxlength="5" name="captcha_index" id="captcha_index" value=""> 
                                   &nbsp; &nbsp;
                                   <br/><br/>
                                  </td>
@@ -278,7 +277,7 @@
                                 <tr>
                                 <td colspan="2" style="text-align:center">
                                   <input type="image" value="Reset" name="reset" src="images/contact/reset.png" border="0" alt="reset" onclick="
-                                      clearFormElements(this.form); return false;" width="75px;"/>
+                                      clearFormElementsWithResult(this.form); return false;" width="75px;"/>
                                   &nbsp; &nbsp; &nbsp; &nbsp;    
                                 <!--  <input type="submit" value="Send" name="submit">    -->
                                     <input type="image" name="submit" src="images/contact/send.png" border="0" alt="Submit" width="75px;"/>

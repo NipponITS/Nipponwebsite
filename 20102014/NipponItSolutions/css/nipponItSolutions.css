@@ -43,6 +43,10 @@ ul.checked {
 		border: medium #000 solid;
 }
 
+#captcha_img_index {
+		border: medium #000 solid;
+}
+
 #nipponFooterDiv a{
 	float: none;
 	font-size:16px;

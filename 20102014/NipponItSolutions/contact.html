@@ -62,7 +62,7 @@
 			  google.maps.event.addDomListener(window, 'load', initialize);
 				</script>
 
-				<!-- contact form -->
+<!-- contact form -->
 			   <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
 				<script type="text/javascript">
 								$(document).ready(function(){
@@ -85,8 +85,6 @@
 							$.post('js/php/process.php', $("#contactUs").serialize(), function(data) {
 								$('#results').html(data);
 							});
-							document.getElementById('captcha_img').src = 'js/php/captcha.php?' + Math.random();
-							document.getElementById('captcha').value = '';
 						}
 					});		
 				}
@@ -202,6 +200,7 @@
 <h1 style="padding-bottom: 0%; padding-top: 0%; text-decoration: none;">Drop us a line and let's get to know each other!</h1>
   <div id="results"></div><br/>
 <form name="contactUs" id="contactUs" action=""  style="margin-left: 5%;">
+<input type="hidden" name="fromPage" value="contact">
 <table width="100%">
 </tr>
 <tr>
@@ -264,7 +263,7 @@
 <tr>
 <td colspan="2" style="text-align:center">
   <input type="image" value="Reset" name="reset" src="images/contact/reset.png" border="0" alt="reset" onclick="
-	  clearFormElements(this.form); return false;"/>
+	  clearFormElementsWithResult(this.form); return false;"/>
   &nbsp; &nbsp; &nbsp; &nbsp;    
 <!--  <input type="submit" value="Send" name="submit">    -->
   	<input type="image" name="submit" src="images/contact/send.png" border="0" alt="Submit" />

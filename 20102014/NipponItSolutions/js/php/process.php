@@ -1,15 +1,27 @@
 <?php
-	/*
-	Here's where you want PHP to process the form data and do something with it, for example inserting the data into a database or sending the information to an email address and so on
-	*/
 
 	session_start(); 
-	if($_POST['captcha'] != $_SESSION['digit']) 
+
+	$string1 = "index";
+	$string2 = "contact";
+
+
+	if($_POST [fromPage]==$string1 && $_POST['captcha_index'] != $_SESSION['digit_index']) 
 	{
+		echo "<script> resetCaptcha(); </script>";
 		print "Sorry, the code entered was incorrect!";
 		session_destroy();
 		die();
 	}
+	
+	elseif($_POST [fromPage]==$string2 && $_POST['captcha'] != $_SESSION['digit']) 
+	{
+		echo "<script> resetCaptcha(); </script>";
+		print "Sorry, the code entered was incorrect!";
+		session_destroy();
+		die();
+	}
+	
     $email_to = "information@nipponitsolutions.com";
     $email_subject = "[NTits website]";
                
@@ -71,5 +83,6 @@ $headers_reply = 'From: '.$email_to."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_from, $email_subject_reply, $email_message_reply, $headers_reply); 
 	echo "<script> resetAfterSuccess(); </script>";
+	echo "<script> resetCaptcha(); </script>";
 	print "Thank you for your interest in Nippon Technocraft IT Solutions.<br/> Our team will get back with you very soon.</b><br>";
 ?>
