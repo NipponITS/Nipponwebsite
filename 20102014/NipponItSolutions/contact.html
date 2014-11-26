@@ -92,7 +92,6 @@
 				</script>
 	<style>
 	label.error { width: 250px; display: inline; color: red;}
-
 	.error {
 	    border-color: #e31e24 !important;
 	    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(227, 30, 36, 0.6);
@@ -201,53 +200,43 @@
   <div id="results"></div><br/>
 <form name="contactUs" id="contactUs" action=""  style="margin-left: 5%;">
 <input type="hidden" name="fromPage" value="contact">
-<table width="100%">
-</tr>
-<tr>
- <td valign="top">
+
+ <div class="formLabel">
   <label for="name" id="name_label">Name <span style="color: red;">*</span></label>
- </td>
- <td valign="top">
+ </div>
+ <div class="formField">
   <input  type="text" name="name" maxlength="50" size="30" id="name" value="">
- </td>
-</tr>
+ </div>
  
-<tr>
- <td valign="top"">
+ <div class="formLabel">
   <label for="company_name" id="company_name_label">Company Name</label>
- </td>
- <td valign="top">
+ </div>
+ <div class="formField">
   <input  type="text" name="company_name" id="company_name" maxlength="50" size="30" value="">
- </td>
-</tr>
-<tr>
- <td valign="top">
+ </div>
+
+ <div  class="formLabel">
   <label for="email" id="email_label">Email Address <span style="color: red;">*</span></label>
- </td>
- <td valign="top">
+ </div>
+ <div class="formField">
   <input  type="text" name="email" id="email" maxlength="80" size="30" value="">
- </td>
+ </div>
  
-</tr>
-<tr>
- <td valign="top">
+ <div class="formLabel">
   <label for="telephone" id ="telephone_label">Telephone Number <span style="color: red;">*</span></label>
- </td>
- <td valign="top">
+ </div>
+ <div class="formField">
   <input  type="text" name="telephone" id="telephone" maxlength="30" size="30" value ="">
- </td>
-</tr>
-<tr>
- <td valign="top">
+ </div>
+
+ <div class="formLabel">
   <label for="comments" label="comments_label">How can we help you <span style="color: red;">*</span></label>
- </td>
- <td valign="top">
+ </div>
+ <div class="formField">
   <textarea  name="comments" id="comments" maxlength="1000" cols="28" rows="6"></textarea>
- </td>
- 
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
+ </div>
+
+ <div style="clear:both; text-align:center; display: block;">
  	<br/>
   <small>Copy the digits from the image into the box</small>
   <br/>
@@ -258,20 +247,18 @@
   <input type="text" size="6" maxlength="5" name="captcha" id="captcha" value=""> 
   &nbsp; &nbsp;
   <br/><br/>
- </td>
-</tr>
-<tr>
-<td colspan="2" style="text-align:center">
+ </div>
+
+<div style="clear:both; text-align:center; display: block;">
   <input type="image" value="Reset" name="reset" src="images/contact/reset.png" border="0" alt="reset" onclick="
 	  clearFormElementsWithResult(this.form); return false;"/>
   &nbsp; &nbsp; &nbsp; &nbsp;    
 <!--  <input type="submit" value="Send" name="submit">    -->
   	<input type="image" name="submit" src="images/contact/send.png" border="0" alt="Submit" />
- </td>
-</tr>
+ </div>
+
 </table>
-</form>
-<br/>
+</form><br/>
 </div>
 <div id="contactDetails">
 <br/>
