@@ -772,10 +772,12 @@ img, object, embed, video {
 	.formLabel {
 		width: 40%;
 		float: left;
+		padding-top:6px;
 	}
 	.formField {
 		width: 60%;
 		float: right;
+		padding-top:2px;
 	}
 }
 
