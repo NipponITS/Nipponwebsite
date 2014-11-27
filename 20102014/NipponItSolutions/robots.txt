@@ -1,4 +1,9 @@
 User-Agent: *
 Disallow: 
+Disallow: /cgi-bin
+Disallow: /old
+Disallow: /NTS
+Disallow: /nipponits
 
 Sitemap: http://www.nipponitsolutions.com/sitemap.xml
+
