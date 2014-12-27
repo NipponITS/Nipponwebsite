@@ -73,6 +73,7 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 2%;
+	margin-top: -0.25%;
 	width: 100%;
 	display: block;
 }
@@ -321,6 +322,7 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 2%;
+	margin-top: -0.25%;
 	width: 100%;
 	display: block;
 }
@@ -572,6 +574,7 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 2%;
+	margin-top: -0.25%;
 	width: 20%;
 	display: block;
 }
