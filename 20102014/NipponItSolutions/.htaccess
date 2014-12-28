@@ -1,4 +1,0 @@
-Options -Indexes
-
-ErrorDocument 403 "www.nipponitsolutions.com"
-ErrorDocument 404 "www.nipponitsolutions.com"
